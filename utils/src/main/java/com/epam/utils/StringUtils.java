@@ -7,7 +7,7 @@ public class StringUtils {
          //here magic will happen
         if (NumberUtils.isCreatable(str)) {
             double res = NumberUtils.toDouble(str);
-            if (res >= 0) {
+            if (res > 0) {
                 return true;
             } else {
                 return false;
