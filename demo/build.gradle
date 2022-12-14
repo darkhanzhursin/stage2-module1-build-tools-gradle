@@ -1,4 +1,18 @@
-//add everything here
+plugins {
+    id 'java'
+}
+
+group = 'com.zhursin.demo'
+version = '1.0'
+
+repositories {
+// provide repository, where required dependencies are located
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':utils')
+}
 
 test {
     useJUnitPlatform()
