@@ -12,8 +12,8 @@ public class Utils {
                 if (StringUtils.isPositiveNumber(args.get(i)) == false) {
                     return false;
                 }
-                return true;
             }
+            return true;
         }
         return false;
     }
